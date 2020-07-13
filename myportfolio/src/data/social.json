@@ -1,0 +1,27 @@
+[
+    {
+        "name":"facebook",
+        "url":"http://facebook.com/saisitaram.vaddavalli",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/VaddavalliSSR",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/saisitaram-vaddavalli-546252196/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/saisitaramvaddavalli/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/saisitaram2000",
+        "className":"fa fa-github"
+      }
+]

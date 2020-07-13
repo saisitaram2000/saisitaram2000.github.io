@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Sai Sita Ram Vaddavalli",
+        "profilepic":"profilepic.JPG",
+        "bio":"my bio",
+        "address":{
+            "street":"Vaddavalli vari street,beside vasavi lodge",
+            "city":"Piduguralla",
+            "state":"AndhraPradesh",
+            "zip": "522413"
+          },
+        "contactmessage":"You can contact to me now",
+        "phone":"7993498130",
+        "email":"saisitaramvaddavalli@gmail.com"
+         
+        
+    }
+]
