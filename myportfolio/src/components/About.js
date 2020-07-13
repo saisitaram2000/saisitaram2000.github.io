@@ -1,6 +1,7 @@
 import React, { Component } from 'react'; 
 import about from '../data/about.json';
 import img from '../images/profilepic.JPG';
+import '../css/layout.css';
 export default class About extends Component{
     constructor(props){
         super(props);
@@ -12,7 +13,7 @@ export default class About extends Component{
             <section id="about">
                 <div className="row">
                     <div className="three columns">
-                        <img className="profile-pic" src={about[0].profilepic} alt="saisitaram profilepic"/>
+                        <img className="profile-pic" src={img} alt="saisitaram profilepic"/>
                     </div>
                     <div className="nine columns">
                         <h2>About Me</h2>

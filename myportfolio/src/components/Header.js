@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import main from '../data/main.json';
 import social from '../data/social.json';
+import '../css/layout.css';
 export default class Header extends Component{
     constructor(props) {
         super(props);
@@ -8,7 +9,7 @@ export default class Header extends Component{
       
     }
     render(){
-
+        console.log(social[0]);
         var networks=social.map(function(network){
             return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
         })
