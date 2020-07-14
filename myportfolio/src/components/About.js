@@ -15,7 +15,7 @@ export default class About extends Component{
                     <div className="three columns">
                         <img className="profile-pic" src={img} alt="saisitaram profilepic"/>
                     </div>
-                    <div className="nine columns">
+                    <div className="nine columns main-col">
                         <h2>About Me</h2>
                         <p>{about[0].bio}</p>
                         <div className="row">
@@ -31,6 +31,11 @@ export default class About extends Component{
                                     <span>{about[0].email}</span>
                                 </p>
                            </div>
+                           <div className="columns download">
+                                <p>
+                                    <a href="download" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
 
