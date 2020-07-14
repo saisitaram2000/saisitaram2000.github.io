@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/saisitaram2000.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/saisitaram2000.github.io/static/js/main.c9db707d.chunk.js",
-    "main.js.map": "/saisitaram2000.github.io/static/js/main.c9db707d.chunk.js.map",
+    "main.css": "/saisitaram2000.github.io/static/css/main.bc902881.chunk.css",
+    "main.js": "/saisitaram2000.github.io/static/js/main.b4c7816e.chunk.js",
+    "main.js.map": "/saisitaram2000.github.io/static/js/main.b4c7816e.chunk.js.map",
     "runtime-main.js": "/saisitaram2000.github.io/static/js/runtime-main.5b0429f8.js",
     "runtime-main.js.map": "/saisitaram2000.github.io/static/js/runtime-main.5b0429f8.js.map",
-    "static/js/2.04f5a9a1.chunk.js": "/saisitaram2000.github.io/static/js/2.04f5a9a1.chunk.js",
-    "static/js/2.04f5a9a1.chunk.js.map": "/saisitaram2000.github.io/static/js/2.04f5a9a1.chunk.js.map",
+    "static/js/2.27465e6a.chunk.js": "/saisitaram2000.github.io/static/js/2.27465e6a.chunk.js",
+    "static/js/2.27465e6a.chunk.js.map": "/saisitaram2000.github.io/static/js/2.27465e6a.chunk.js.map",
     "index.html": "/saisitaram2000.github.io/index.html",
-    "precache-manifest.c0f934b606618814be34af90258efd22.js": "/saisitaram2000.github.io/precache-manifest.c0f934b606618814be34af90258efd22.js",
+    "precache-manifest.b0b5dbef3f12946906ef3d518caf7ae6.js": "/saisitaram2000.github.io/precache-manifest.b0b5dbef3f12946906ef3d518caf7ae6.js",
     "service-worker.js": "/saisitaram2000.github.io/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/saisitaram2000.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.04f5a9a1.chunk.js.LICENSE.txt": "/saisitaram2000.github.io/static/js/2.04f5a9a1.chunk.js.LICENSE.txt",
+    "static/css/main.bc902881.chunk.css.map": "/saisitaram2000.github.io/static/css/main.bc902881.chunk.css.map",
+    "static/js/2.27465e6a.chunk.js.LICENSE.txt": "/saisitaram2000.github.io/static/js/2.27465e6a.chunk.js.LICENSE.txt",
+    "static/media/layout.css": "/saisitaram2000.github.io/static/media/img1.a22f2583.jpg",
     "static/media/profilepic.JPG": "/saisitaram2000.github.io/static/media/profilepic.fb2f0bce.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.5b0429f8.js",
-    "static/js/2.04f5a9a1.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c9db707d.chunk.js"
+    "static/js/2.27465e6a.chunk.js",
+    "static/css/main.bc902881.chunk.css",
+    "static/js/main.b4c7816e.chunk.js"
   ]
 }
