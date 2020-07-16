@@ -1,0 +1,62 @@
+[
+    {
+    "education":[
+        {
+            "college":"NATIONAL INSTITUTE OF TECHNOLOGY DURGAPUR",
+            "branch":"BTECH in COMPUTER SCIENCE AND ENGINEERING",
+            "year":"2018-present",
+            "location":"DURGAPUR, WESTBENGAL"
+        }
+        
+    ],
+    "skillmessage":"MY TECHNICAL SKILLS",
+    "skills":[
+        {
+            "name":"C/C++",
+            "level":"80%"
+        },
+        {
+            "name":"Javascript",
+            "level":"60%"
+        },
+        {
+            "name":"python",
+            "level":"40%"
+        },
+        {
+            "name":"DataStructures/Algorithms",
+            "level":"60%"
+        },
+        {
+            "name":"OOPS",
+            "level":"60%"
+        },
+        {
+            "name":"React",
+            "level":"50%"
+        },
+        {
+            "name":"Node.js",
+            "level":"50%"
+        },
+        {
+            "name":"MySQL",
+            "level":"50%"
+        },
+        {
+            "name":"Jquery",
+            "level":"40%"
+        },
+        {
+            "name":"HTML/CSS",
+            "level":"50%"
+        },
+        {
+            "name":"Git",
+            "level":"50%"
+        }
+
+
+    ]
+    }
+]

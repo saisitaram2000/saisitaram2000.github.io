@@ -8,11 +8,15 @@ export default class Header extends Component{
         this.state = {};
       
     }
+   
+     networks = () =>(
+        
+        social.map(network=>{
+        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>;
+    })
+     )
     render(){
-        console.log(social[0]);
-        var networks=social.map(function(network){
-            return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-        })
+       
         return(
            
             <header id="home">
@@ -34,15 +38,15 @@ export default class Header extends Component{
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">I'm {main[0].name}.</h1>
-                        <h3>A passionate WebDeveloper and ProblemSolver</h3>
+                        <h3>{main[0].description}</h3>
                         <hr />
                         <ul className="social">
-                            {networks}
+                            <this.networks />
                         </ul>
                     </div>
                 </div>
                 <p className="scrolldown">
-                    <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+                    <a className="smoothscroll" href="#about"><i className="fa fa-chevron-circle-down"></i></a>
                 </p>
             </header>
             
