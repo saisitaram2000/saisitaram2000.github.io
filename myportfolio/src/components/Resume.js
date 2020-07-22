@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import resume from '../data/resume.json';
 import '../css/layout.css';
-
+import '../css/mediaqueries.css';
 export default class Resume extends Component{
     constructor(props) {
         super(props);
@@ -13,7 +13,7 @@ export default class Resume extends Component{
        resume[0].education.map(education=>{
            return <div key={education.college}><h3>{education.college}</h3>
            <p className="info">{education.branch} <span>&bull;</span><em className="date">{education.year}</em></p>
-           <p>{education.location}</p></div>
+           <p id="loc">{education.location}</p></div>
        })
     )
     skills=()=>(

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import about from '../data/about.json';
 import img from '../images/profilepic.JPG';
 import '../css/layout.css';
+import '../css/mediaqueries.css';
 export default class About extends Component{
     constructor(props){
         super(props);

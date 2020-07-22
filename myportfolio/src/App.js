@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import About from './components/About';
+// import About from './components/About';
 import Resume from './components/Resume';
 function App() {
   return (

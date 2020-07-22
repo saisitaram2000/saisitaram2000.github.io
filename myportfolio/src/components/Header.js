@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import main from '../data/main.json';
 import social from '../data/social.json';
 import '../css/layout.css';
+import '../css/mediaqueries.css';
 export default class Header extends Component{
     constructor(props) {
         super(props);
