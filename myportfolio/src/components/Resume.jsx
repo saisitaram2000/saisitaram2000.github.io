@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import resume from '../data/resume.json';
 import skills from '../data/skill.json'; 
-import '../css/layout.css';
-import '../css/mediaqueries.css';
+// import '../css/layout.css';
+// import '../css/mediaqueries.css';
 import './resume.css';
 export default class Resume extends Component{
     constructor(props) {
@@ -13,9 +13,15 @@ export default class Resume extends Component{
 
      education=()=>(
        resume[0].education.map(education=>{
-           return <div key={education.college}><h3>{education.college}</h3>
-           <p className="info">{education.branch} <span>&bull;</span><em className="date">{education.year}</em></p>
-           <p id="loc">{education.location}</p></div>
+           return <div className="education-list-item" key={education.college}>
+                    <div className="education-list-item-name">{education.college}</div>
+                    <div className="education-list-item-sub">
+                        <div className="education-list-item-info">{education.branch} <span>&bull;</span><em className="education-list-item-date">{education.year}</em></div>
+                    </div>
+                    <div className="education-list-item-sub">
+                        <p id="education-list-item-location">{education.location}</p>
+                    </div>
+                </div>
        })
     )
 
@@ -49,52 +55,51 @@ export default class Resume extends Component{
         console.log(resume[0].education);
         return(
     <section id="resume">
-        <div className=" education">
-            <div className="three columns header-col">
-                <h1><span>Education</span></h1>
+        <div className="education">
+            <div className="resume-header">
+                EDUCATION
             </div>
-            <div className="nine columns main-col">
-                <div className="row item">
-                    <div className="twelve columns">
-                        <this.education />
-                    </div>
-                </div>
+            <div className="education-list">
+                <this.education />
             </div>
         </div>
-            <div className="skill-page">
-                <h2 id="skill-header"><span>Skills</span></h2>
-                <div className="skill">
-                    <div className="skill-techstack">
-                        <div className="skill-header-col">
-                            <h1><span>TECHSTACK</span></h1>
-                        </div>
-
-                        <div className="skill-techstack-list">
-                            <this.techStack/>
-                        </div>
-                    </div>
-                    <div className="skill-programming">
-                        <div className="skill-header-col">
-                            <h1><span>programming</span></h1>
-                        </div>
-
-                        <div className="skill-programming-list">
-                            <this.programmingSkills/>
-                        </div>
-                    </div>
-                    <div className="skill-others">
-                        <div className="skill-header-col">
-                            <h1><span>Others</span></h1>
-                        </div>
-
-                        <div className="skill-others-list">
-                            <h5 className="skill-others-list-item"><span>&bull;</span> Data Structures and Algorithms</h5>
-                            <h5 className="skill-others-list-item"><span>&bull;</span>OOPS</h5>
-                            <h5 className="skill-others-list-item"><span>&bull;</span>DBMS</h5>
-                        </div>
+        <div className="skill-page">
+            <div className="resume-header">
+                SKILLS
+            </div>
+                
+            <div className="skill">
+                <div className="skill-techstack">
+                    <div className="skill-header-col">
+                        <h1><span>TECHSTACK</span></h1>
                     </div>
 
+                    <div className="skill-techstack-list">
+                        <this.techStack/>
+                    </div>
                 </div>
+                <div className="skill-programming">
+                    <div className="skill-header-col">
+                        <h1><span>programming</span></h1>
+                    </div>
+
+                    <div className="skill-programming-list">
+                        <this.programmingSkills/>
+                    </div>
+                </div>
+                <div className="skill-others">
+                    <div className="skill-header-col">
+                        <h1><span>Others</span></h1>
+                    </div>
+
+                    <div className="skill-others-list">
+                        <h5 className="skill-others-list-item"><span>&bull;</span> Data Structures and Algorithms</h5>
+                        <h5 className="skill-others-list-item"><span>&bull;</span>OOPS</h5>
+                        <h5 className="skill-others-list-item"><span>&bull;</span>DBMS</h5>
+                    </div>
+                </div>
+
+            </div>
 
                
         </div>
