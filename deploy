@@ -1,5 +1,5 @@
 git checkout development
-npm run deploy
+npm run --prefix myportfolio deploy
 git checkout master
 git pull origin gh-pages
 git push
