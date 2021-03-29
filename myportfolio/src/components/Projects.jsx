@@ -21,7 +21,9 @@ export default class Projects extends Component {
         
         return projects?(
             <div className="project-list">
-                <h2 id="project-header"><span>projects</span></h2>
+                <div className="projects-header">
+                    PROJECTS
+                </div>
                 <div className="project-list-items">
                     {projects.map((project)=>(
                     
