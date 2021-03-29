@@ -1,4 +1,7 @@
-.about{
+#about{
+    position: relative;
+}
+.about-page{
     position: relative;
     background: #2B2B2B;
     display: flex;
@@ -45,21 +48,21 @@
     padding-left: 20px; */
    
 }
-.profile-pic{
+#about .profile-pic{
     width: 80%;
     height: 80%;
     /* border-radius: 100%; */
 }
-.about h2 {
+.about-page h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
     color: #fff;
     
  }
- .about p {
+ .about-page p {
     line-height: 30px;
     color: #7A7A7A;
  }
- .about-person-contact-resume-resume-download .button {
+ #about .about-person-contact-resume-resume-download .button {
     background: #444;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -69,18 +72,18 @@
     color: white;
     font-weight: 800;
  }
- .about-person-contact-resume-resume-download .button:hover {
+ #about .about-person-contact-resume-resume-download .button:hover {
     background: #fff;
     color: #2B2B2B;
  }
- .about-person-contact-resume-resume-download .button i {
+ #about .about-person-contact-resume-resume-download .button i {
     font-size: 20px;
  }
  @media only screen and (max-width: 600px) {
-    .about{
+    .about-page{
      flex-direction: column;
     }
-    .about p,h2{
+    .about-page p,h2{
         text-align: center;
     }
     .about-profile-pic{
@@ -90,7 +93,7 @@
           padding: 50px;
           width: 100%;
           text-align: center;
-          transform: translate(20%, 0%);
+          transform: translate(25%, 0%);
           /* background-color: aqua; */
        }
        .about-person{
@@ -100,12 +103,12 @@
        .about-person-contact-resume{
            flex-direction: column;
        }
-       .about-person-contact-resume-contact-details{
+       #about .about-person-contact-resume-contact-details{
            width: 100%;
             align-items: center;
 
        }
-       .about-person-contact-resume-resume-download{
+       #about .about-person-contact-resume-resume-download{
             width: 100%;
             padding: 50px;
        }

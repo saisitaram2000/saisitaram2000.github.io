@@ -26,7 +26,8 @@ class Footer extends Component {
     
 
     return (
-         <div className="footer-page">
+      <section id="footer">
+          <div className="footer-page">
             <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="fa fa-chevron-circle-up"></i></a></div>
             
             <div className="footer-social">
@@ -36,6 +37,8 @@ class Footer extends Component {
                Have a project for me? Think I'd be a good fit for your Organisation? I'd love to hear from you, give me a shout by one of my social network platforms.
             </p>
          </div>
+      </section>
+         
     );
   }
 }
