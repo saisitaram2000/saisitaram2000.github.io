@@ -1,0 +1,118 @@
+.project-list{
+     position: relative;
+}
+.project-list-single{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    float: left;
+    width: 33%;
+    height: 450px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+    border: 1px solid red;
+    transform: scale(0.98);
+
+}
+.project-list-single-top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.project-list-single-fig{
+    width: 40%;
+    padding-right: 15px;
+}
+.project-list-single-data{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.project-list-single-top-header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.project-title{
+    width: 75%;
+}
+.project-date{
+    width: 25%;
+}
+.project-list-single-data-short-description{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-collapse-expand-icon{
+    cursor: pointer;
+    border: solid 1px #f2f2f2;
+    padding: 15px;
+    background-color: #0089CC;
+    color: #FFF;
+    font-family: verdana;
+    }
+    .project-long-description{
+    cursor: pointer;
+    border-left: solid 1px #f2f2f2;
+    border-right: solid 1px #f2f2f2;
+    border-bottom: solid 1px #f2f2f2;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    font-family: verdana;
+    font-size: 14px;
+    }
+    .project-single-links{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        /* background-color: #0089CC; */
+        padding-top: 30px;
+    }
+     .project-link p {
+        line-height: 30px;
+        color: #7A7A7A;
+     }
+     .project-link .button {
+        margin-top: 6px;
+        background: #444;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+     }
+     .project-link .button:hover {
+        background: #fff;
+        color: #2B2B2B;
+     }
+     .project-title{
+         text-transform: uppercase;
+     }
+     .project-list h2{
+        font: 18px/24px 'opensans-bold', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-left: 600px;
+        font-weight: 400;
+        color: #FFF;
+     }
+     .project-list h2 span {
+        border-bottom: 3px solid #11ABB0;
+        padding-bottom: 6px;
+     }
+     #project-header{
+         padding-top: 20px;
+         padding-bottom: 50px;
+     }

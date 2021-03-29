@@ -1,0 +1,80 @@
+.about{
+    position: relative;
+    background: #2B2B2B;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.about-profile-pic{
+    /* position: relative; */
+   width: 25%;
+   padding-right: 50px;
+   padding-left: 80px;
+   padding-top: 60px;
+   /* background-color: aqua; */
+}
+.about-person{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 75%;
+    /* background-color: blueviolet; */
+    padding-left: 100px;
+}
+.about-person-contact-resume{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+.about-person-contact-resume-contact-details{
+    width: 45%;
+    /* background-color: chartreuse; */
+}
+.about-person-contact-resume-resume-download{
+    padding-top: 5rem;
+    width: 55%;
+    margin-left: 0px;
+    /* background-color: blue; */
+    padding-left: 20px;
+}
+.profile-pic{
+    width: 80%;
+    height: 80%;
+    /* border-radius: 100%; */
+}
+.about h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+ }
+ .about p {
+    line-height: 30px;
+    color: #7A7A7A;
+ }
+ .about-person-contact-resume-resume-download .button {
+    margin-top: 6px;
+    background: #444;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+ }
+ .about-person-contact-resume-resume-download .button:hover {
+    background: #fff;
+    color: #2B2B2B;
+ }
+ .about-person-contact-resume-resume-download .button i {
+    margin-right: 15px;
+    font-size: 20px;
+ }

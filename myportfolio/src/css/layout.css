@@ -124,8 +124,8 @@ header .scrolldown a:hover { color: #11ABB0; }
 ul#nav {
    min-height: 48px;
    width: auto;
-
    /* center align the menu */
+   margin-left: 400px;
    text-align: center;
 }
 ul#nav li {
@@ -144,7 +144,7 @@ ul#nav li a {
    padding: 8px 13px;
    line-height: 32px;
 	text-decoration: none;
-   text-align: left;
+   text-align:left;
    color: #fff;
 
 	-webkit-transition: color .2s ease-in-out;
@@ -220,7 +220,7 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   margin-left: -815px;
+   margin-left: 250px;
 }
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
@@ -228,7 +228,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-   margin-left: 330px;
+   margin-left: 550px;
    margin-top: -40px;
 }
 
@@ -245,18 +245,22 @@ ul#nav li.current a { color: #F06000; }
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
-   margin-left: 200px;
+   margin-left: 550px;
 }
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
+}
+#resume #loc{
+   margin-left: 550px;
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 #resume #skimsg{
-   margin-top: -50px;
+   /* margin-top: -50px; */
+   margin-left: 550px;
 }
 
 /*	Skill Bars*/
@@ -271,7 +275,7 @@ ul#nav li.current a { color: #F06000; }
 .bars .skills {
   	margin-top: 60px;
    list-style: none;
-   margin-left: 430px;
+   margin-left: 550px;
 }
 .bars li {
    position: relative;

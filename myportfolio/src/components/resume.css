@@ -1,0 +1,78 @@
+.skill-page{
+    position: relative;
+}
+.skill-header{
+    margin-bottom: 10px;
+}
+.skill{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.skill-techstack{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.skill-programming{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.skill-others{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.skill-techstack-list, .skill-programming-list {
+    position: relative;
+}
+.skill-others-list{
+    position: relative;
+    
+}
+.skill-techstack-list-item{
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    float: left;
+    width: 33%;
+    height: 250px;
+    padding-left: 150px;
+}
+.skill-programming-list-item{
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 150px;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.skill-others-list-item{
+    position: relative;
+    float: left;
+    padding-left: 150px;
+}
+.skill-techstack-fig{
+    width: 120px;
+    height: 120px;
+}
+.skill-programming-fig{
+    width: 60px;
+    height: 60px;
+}
+#resume h2{
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 750px;
+ }
+ #resume h2 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+ }
+ #skill-header{
+     padding-bottom: 50px;
+ }
