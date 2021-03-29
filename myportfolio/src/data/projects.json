@@ -4,7 +4,7 @@
       "short": "A FullStack project that makes ordering food process in restaurant simpler by making an order from table using our mobile.",
       "date": "Jan2021",
       "description": "dfg",
-      "img":"/images/qrfood.png",
+      "img":"/images/foodorder.jpg",
       "link": "https://github.com/JOURNEY-CP/restaurant",
       "demo": "http://journey-restaurant.herokuapp.com",
       "technologies": ["peerjs", "webrtc"],

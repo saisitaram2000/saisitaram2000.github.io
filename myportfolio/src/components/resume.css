@@ -15,6 +15,7 @@
     flex-direction: row;
     padding-top: 20px;
 }
+
 .skill-programming{
     position: relative;
     display: flex;
@@ -27,6 +28,11 @@
 }
 .skill-techstack-list, .skill-programming-list {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 .skill-others-list{
     position: relative;
@@ -37,10 +43,11 @@
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
-    float: left;
-    width: 33%;
+    /* float: left; */
+    /* width: 33%; */
     height: 250px;
-    padding-left: 150px;
+    padding: 50px;
+    /* padding-left: 150px; */
 }
 .skill-programming-list-item{
     position: relative;
@@ -50,6 +57,7 @@
     padding-left: 150px;
     padding-right: 100px;
 }
+
 .skill-others-list-item{
     position: relative;
     float: left;
@@ -67,7 +75,7 @@
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-left: 750px;
+    /* margin-left: 750px; */
  }
  #resume h2 span {
     border-bottom: 3px solid #11ABB0;
@@ -76,3 +84,13 @@
  #skill-header{
      padding-bottom: 50px;
  }
+
+ @media only screen and (max-width: 600px) {
+    .skill-techstack{
+        flex-direction: column;
+    }
+    .skill-techstack-list-item{
+        /* width: 49%; */
+        padding: 15px;
+    }
+  }

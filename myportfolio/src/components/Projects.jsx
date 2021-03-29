@@ -23,12 +23,17 @@ export default class Projects extends Component {
             <div className="project-list">
                 <h2 id="project-header"><span>projects</span></h2>
                 <div className="project-list-items">
-                {projects.map((project)=>(
+                    {projects.map((project)=>(
                     
                     <div className="project-list-single" key={project.name}>
                         <div className="project-list-single-top">
-                            <img className="project-list-single-fig" src={process.env.PUBLIC_URL+project.img} 
-                            alt="restaurant"/>
+                            <div className="project-list-single-top-fig">
+                                <img 
+                                    className="project-list-single-fig" 
+                                    src={process.env.PUBLIC_URL+project.img} 
+                                    alt="restaurant"
+                                />
+                            </div>
                             <div className="project-list-single-top-header">
                                     <h1 className="project-title">{project.name}</h1>
                                     <h3 className="project-date">{project.date}</h3>
@@ -38,16 +43,6 @@ export default class Projects extends Component {
                         <div className="project-list-single-data">
                             <div className="project-list-single-data-short-description">
                                 <h3 className="project-short-description">{project.short}</h3>
-                                {/* <div onClick={(e)=>this.togglePanel(e)} className="project-collapse-expand-icon">
-                                    click
-                                </div>
-                                {this.state.open ? (
-                                <div className="project-long-description">
-                                long description
-                                </div>
-                                ) : null} */}
-                                
-                            
                             </div>
                             <div className="project-single-links">
                                 <div className="project-link">
