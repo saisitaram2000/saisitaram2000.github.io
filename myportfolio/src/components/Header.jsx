@@ -41,32 +41,6 @@ export default class Header extends Component{
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">I'm {main[0].name}.</h1>
-                            {/* <pre>
-                                I'm <TypeWriterEffect
-                                        textStyle={{
-                                        fontFamily: 'Red Hat Display',
-                                        color: '#3F3D56',
-                                        fontWeight: 500,
-                                        fontSize: '1.5em',
-                                        
-                                        }}
-                                        startDelay={2000}
-                                        cursorColor="#3F3D56"
-                                        multiText={[
-                                        'first',
-                                        'second',
-                                        'third',
-                                       
-                                        ]}
-                                        loop={true}
-                                        nextTextDelay={1000}
-                                        typeSpeed={30}
-                                        
-                                    />
-                            </pre> */}
-                     
-                        
-                        
                         <h3>{main[0].description}.</h3>
                         <hr />
                         <ul className="social">

@@ -1,21 +1,18 @@
 .about{
     position: relative;
     background: #2B2B2B;
-    padding-top: 96px;
-    padding-bottom: 66px;
-    overflow: hidden;
-     
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     
 }
+
+
 .about-profile-pic{
-    /* position: relative; */
-   width: 25%;
-   padding-right: 50px;
-   padding-left: 80px;
-   padding-top: 60px;
+ position: relative; 
+   max-width: 350px;
+   max-height: 350px;
+   padding: 50px;
    /* background-color: aqua; */
 }
 .about-person{
@@ -24,8 +21,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     width: 75%;
+    padding: 50px;
     /* background-color: blueviolet; */
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 .about-person-contact-resume{
     position: relative;
@@ -37,13 +35,15 @@
 .about-person-contact-resume-contact-details{
     width: 45%;
     /* background-color: chartreuse; */
+ 
 }
 .about-person-contact-resume-resume-download{
     padding-top: 5rem;
     width: 55%;
-    margin-left: 0px;
-    /* background-color: blue; */
-    padding-left: 20px;
+    /* margin-left: 0px;
+    background-color: blue; 
+    padding-left: 20px; */
+   
 }
 .profile-pic{
     width: 80%;
@@ -53,14 +53,13 @@
 .about h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
     color: #fff;
-    margin-bottom: 12px;
+    
  }
  .about p {
     line-height: 30px;
     color: #7A7A7A;
  }
  .about-person-contact-resume-resume-download .button {
-    margin-top: 6px;
     background: #444;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -75,6 +74,40 @@
     color: #2B2B2B;
  }
  .about-person-contact-resume-resume-download .button i {
-    margin-right: 15px;
     font-size: 20px;
  }
+ @media only screen and (max-width: 600px) {
+    .about{
+     flex-direction: column;
+    }
+    .about p,h2{
+        text-align: center;
+    }
+    .about-profile-pic{
+        
+          max-width: 250px;
+          max-height: 250px;
+          padding: 50px;
+          width: 100%;
+          text-align: center;
+          transform: translate(20%, 0%);
+          /* background-color: aqua; */
+       }
+       .about-person{
+           width: 100%;
+            padding: 0px;
+       }
+       .about-person-contact-resume{
+           flex-direction: column;
+       }
+       .about-person-contact-resume-contact-details{
+           width: 100%;
+            align-items: center;
+
+       }
+       .about-person-contact-resume-resume-download{
+            width: 100%;
+            padding: 50px;
+       }
+    
+   }

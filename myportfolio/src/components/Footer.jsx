@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import social from '../data/social.json';
-import '../css/layout.css';
+// import '../css/layout.css';
 import './footer.css';
-import '../css/mediaqueries.css';
+// import '../css/mediaqueries.css';
 
 class Footer extends Component {
     constructor(props) {
@@ -27,7 +27,7 @@ class Footer extends Component {
 
     return (
          <div className="footer-page">
-            <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="fa fa-chevron-up"></i></a></div>
+            <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="fa fa-chevron-circle-up"></i></a></div>
             
             <div className="footer-social">
                   <this.networks/>
