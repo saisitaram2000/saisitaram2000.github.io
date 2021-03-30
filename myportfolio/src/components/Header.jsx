@@ -3,7 +3,7 @@ import main from '../data/main.json';
 import social from '../data/social.json';
 import '../css/layout.css';
 import '../css/mediaqueries.css';
-
+import './header.css'
 
 export default class Header extends Component{
     constructor(props) {
@@ -28,15 +28,15 @@ export default class Header extends Component{
 
                  <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                 <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
-                <ul id="nav" className="nav">
-                    <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                     <li><a className="smoothscroll" href="#about">About</a></li>
-                     <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                    <li><a className="smoothscroll" href="#projects">Projects</a></li>
-                    <li><a className="smoothscroll" href="#footer">Contact</a></li>
-                </ul>
-
+                <center>
+                    <ul id="nav" className="nav">
+                        <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+                        <li><a className="smoothscroll" href="#about">About</a></li>
+                        <li><a className="smoothscroll" href="#resume">Resume</a></li>
+                        <li><a className="smoothscroll" href="#projects">Projects</a></li>
+                        <li><a className="smoothscroll" href="#footer">Contact</a></li>
+                    </ul>
+                </center>
             </nav>
                 <div className="row banner">
                     <div className="banner-text">

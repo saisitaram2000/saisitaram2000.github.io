@@ -38,8 +38,8 @@ export default class Projects extends Component {
                                     />
                                 </div>
                                 <div className="project-list-single-top-header">
-                                        <h1 className="project-title">{project.name}</h1>
-                                        <h3 className="project-date">{project.date}</h3>
+                                <h1 className="project-title">{project.name}</h1>
+                                <div className="project-date-info"><span>&bull;</span><em className="project-date">{project.date}</em></div>
                                 </div>
                             </div>
                             
@@ -58,7 +58,7 @@ export default class Projects extends Component {
                                         <p>
                                             <a href={project.demo} className="button">DemoLive</a>
                                         </p>
-                                    </div>):null};
+                                    </div>):null}
                                 </div>
                             </div>
 
