@@ -103,6 +103,9 @@
        .about-person-contact-resume{
            flex-direction: column;
        }
+       #about .profile-pic{
+           border-radius: 0%;
+       }
        #about .about-person-contact-resume-contact-details{
            width: 100%;
             align-items: center;
